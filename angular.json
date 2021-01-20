@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angularButtonRadio"
+    }
+  },
+  "defaultProject": "angularButtonRadio",
+  "cli": {
+    "analytics": "7c58b0e3-ce99-49e0-830f-7a3ae951430e"
+  }
 }

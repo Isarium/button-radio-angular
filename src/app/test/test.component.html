@@ -1,0 +1,10 @@
+
+<form [formGroup]="controlsFormGroup" class="mb-3">
+    <div *ngIf="controlsFormGroup">
+<app-radio [parentFormGroup]="controlsFormGroup"></app-radio>
+    </div>
+<button class="btn btn-primary mb-3" (click)="save()">Enregistrer</button>
+<div>You want to drink {{radioExemple.value}}</div>
+<!--<div>{{controlsFormGroup.value.radioExemple}}</div>-->
+
+</form>
